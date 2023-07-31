@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">QLSinhVien</string>
+    <string name="map_api_key">AIzaSyAMbXNL-P8qEgTI5f5LN0dLrxy69d6zJl0</string>
+    <string name="dangnhap">LOGIN</string>
+    <string name="taikhoan">Username</string>
+    <string name="matkhau">Password</string>
+    <string name="dangnhap1">Login</string>
+    <string name="monhoc">SUBJECT</string>
+    <string name="mamonhoc">Subject code:</string>
+    <string name="tenmonhoc">Subject Title:</string>
+    <string name="sotinchi">Credits:</string>
+    <string name="sotiethoc">Number of lessons:</string>
+    <string name="them">Add</string>
+    <string name="sinhvien">Student</string>
+    <string name="addsinhvien">Add Student</string>
+    <string name="hovaten">Full name: Nguyễn Quốc Huy</string>
+    <string name="masv">MSSV:DH51905009 </string>
+    <string name="lop"> Class:D19_TH09</string>
+    <string name="sodienthoai">Number Phone:</string>
+    <string name="vitri">Location:</string>
+    <string name="tensinhvien">Student name:</string>
+    <string name="masinhvien">Student code:</string>
+    <string name="nam">Male</string>
+    <string name="nu">Female</string>
+    <string name="sdt">Number Phone:</string>
+    <string name="diachi">Subject:</string>
+    <string name="thongtinmh">Course Information</string>
+    <string name="thongtinsv">Student Information</string>
+    <string name="gioitinh">Sex:</string>
+    <string name="qlsv">STUDENT MANAGEMENT</string>
+    <string name="sua">Update</string>
+    <string name="dialogthemmh">Want more subjects?</string>
+    <string name="co">Yes</string>
+    <string name="khong">No</string>
+    <string name="dialogthemsv">Want to add students?</string>
+    <string name="xoamh">The subject is still a student. Do you still want to delete?</string>
+    <string name="xoasv">Want to delete students?</string>
+    <string name="suamh">Are you sure to correct the subject?</string>
+    <string name="suasv">Are you sure to correct students?</string>
+    <string name="ma">Code</string>
+    <string name="phai">Phái: </string>
+    <string name="nhaplai">Please enter the correct information !</string>
+    <string name="success">Logged in successfully !</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+
+</resources>

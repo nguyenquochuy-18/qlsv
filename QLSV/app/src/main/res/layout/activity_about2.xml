@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity"
+    android:orientation="vertical"
+    android:background="@drawable/images"
+   >
+    <androidx.appcompat.widget.Toolbar
+        app:title="@string/about"
+        android:id="@+id/tlbAbout"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hovaten"
+        android:textSize="28sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/about"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/masv"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/about"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lop"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/about"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email: DH51905009@student.stu.edu.vn"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/about"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/about"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sodienthoai"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/txtsdt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0338234017"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+
+            android:layout_marginLeft="20dp">
+        </TextView>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_local_phone_24"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/imgCall">
+
+        </ImageButton>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txtVitri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/vitri"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:id="@+id/myMap"/>
+
+
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateSVActivity2"
+    android:orientation="vertical"
+    android:background="@drawable/images2">
+    <androidx.appcompat.widget.Toolbar
+        app:title="@string/monhoc"
+        android:id="@+id/tlbupdatesv"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#8E3933"
+
+        android:textSize="30sp"
+        android:text="@string/sinhvien"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:id="@+id/imgSuaSV"
+        android:src="@drawable/anh"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="@string/masinhvien"
+            android:textSize="22sp"
+            />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/txtSuaMaSV"
+            android:text="22"
+            android:textSize="22sp"
+            />
+    </LinearLayout>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="@string/tensinhvien"
+        android:id="@+id/edtSuaTenSV"
+        />
+    <RadioGroup
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        android:layout_gravity="center">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="@string/nam"
+            android:checked="true"
+            android:id="@+id/radSuaNam"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="@string/nu"
+            android:id="@+id/radSuaNu"
+            android:layout_marginLeft="100dp"/>
+    </RadioGroup>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="@string/sodienthoai"
+        android:id="@+id/edtSuaSDT"/>
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="@string/diachi"
+        android:id="@+id/spSuaMH"/>
+
+    <Button
+        android:id="@+id/btnSuaSV"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/sua" />
+
+
+
+</LinearLayout>

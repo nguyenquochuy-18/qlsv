@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/images">
+
+
+    <androidx.appcompat.widget.Toolbar
+        app:title="@string/qlsv"
+        android:id="@+id/tlbSV"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vietnam"
+            android:id="@+id/VN"></ImageButton>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/usa"
+            android:id="@+id/USA"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/dangnhap"
+        android:textSize="15pt"
+        android:background="@drawable/duongvien_goctron"
+
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="60dp"
+        android:id="@+id/edtTaiKhoan"
+        android:hint="@string/taikhoan"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@drawable/login"
+
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="60dp"
+        android:id="@+id/edtMatKhau"
+        android:hint="@string/matkhau"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:background="@drawable/login"
+        android:gravity="center"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLogin"
+        android:layout_marginTop="30dp"
+        android:text="@string/dangnhap1"
+        android:layout_gravity="center"
+        android:textSize="25sp"/>
+
+</LinearLayout>

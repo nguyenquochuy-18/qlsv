@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddSVActivity"
+    android:orientation="vertical"
+    android:background="@drawable/images2">
+
+    <androidx.appcompat.widget.Toolbar
+        app:title="@string/sinhvien"
+        android:id="@+id/tlbaddsv"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#8E3933"
+        android:textSize="30sp"
+        android:text="@string/sinhvien"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:id="@+id/imgsv"
+        android:contentDescription="HinhMH"
+        android:src="@drawable/anh"
+        />
+
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="@string/masinhvien"
+        android:id="@+id/edtMaSV"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="@string/tensinhvien"
+        android:id="@+id/edtTenSV"/>
+    <RadioGroup
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        android:layout_gravity="center">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="@string/nam"
+            android:checked="true"
+            android:id="@+id/radNam"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="@string/nu"
+            android:id="@+id/radNu"
+            android:layout_marginLeft="100dp"/>
+    </RadioGroup>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="@string/sdt"
+        android:id="@+id/edtSDT"/>
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="@string/diachi"
+        android:id="@+id/sptenMH"/>
+
+    <Button
+        android:id="@+id/btnThemSV"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/them" />
+
+
+
+</LinearLayout>

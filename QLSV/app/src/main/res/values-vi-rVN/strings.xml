@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QLSinhVien</string>
+    <string name="map_api_key">AIzaSyAMbXNL-P8qEgTI5f5LN0dLrxy69d6zJl0</string>
+    <string name="dangnhap">ĐĂNG NHẬP</string>
+    <string name="taikhoan">Nhập tên người dùng</string>
+    <string name="matkhau">Nhập mật khẩu</string>
+    <string name="dangnhap1">Đăng nhập</string>
+    <string name="monhoc">MÔN HỌC</string>
+    <string name="mamonhoc">Mã môn học: </string>
+    <string name="tenmonhoc">Tên môn học: </string>
+    <string name="sotinchi">Số tín chỉ: </string>
+    <string name="sotiethoc">Số tiết học: </string>
+    <string name="them">Thêm</string>
+    <string name="sinhvien">Sinh Viên</string>
+    <string name="addsinhvien"> Thêm Sinh Viên</string>
+    <string name="hovaten">Họ và tên: Nguyễn Quốc Huy</string>
+    <string name="masv">MSSV:DH51905009 </string>
+    <string name="lop">Lớp:D19_TH09</string>
+    <string name="sodienthoai">Số điện thoại</string>
+    <string name="vitri">Vị trí</string>
+    <string name="tensinhvien">Tên sinh viên</string>
+    <string name="masinhvien">Mã sinh viên</string>
+    <string name="nam">Nam</string>
+    <string name="nu">Nữ</string>
+    <string name="sdt">Số điện thoại: </string>
+    <string name="diachi">Môn học: </string>
+    <string name="thongtinmh">Thông tin môn học</string>
+    <string name="thongtinsv">Thông tin Sinh Viên</string>
+    <string name="gioitinh">Phái: </string>
+    <string name="qlsv">QUẢN LÝ SINH VIÊN</string>
+    <string name="sua">Cập nhật</string>
+    <string name="dialogthemmh">Bạn muốn thêm môn học?</string>
+    <string name="co">Có</string>
+    <string name="khong">Không</string>
+    <string name="dialogthemsv">Bạn muốn thêm sinh viên ?</string>
+    <string name="xoamh">Môn học còn sinh viên. Bạn vẫn muốn xóa ?</string>
+    <string name="xoasv">Bạn muốn xóa sinh viên ?</string>
+    <string name="suamh">Bạn chắc chắn sửa môn học ?</string>
+    <string name="suasv">Bạn chắc chắn sửa sinh viên ?</string>
+    <string name="ma">Mã:</string>
+    <string name="phai">Phái: </string>
+    <string name="nhaplai">Mời bạn nhập đúng thông tin!</string>
+    <string name="success">Đăng nhập thành công !</string>
+    <string name="about">Thông tin</string>
+    <string name="exit">Thoát</string>
+
+</resources>
